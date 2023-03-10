@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <title>Frontend Mentor | Interactive card details form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution1 {
+            font-size: 11px;
+            text-align: center;
+        }
+        .attribution1 a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+<body>
+    <div class="attribution">
+        <div class="container">
+            <header>
+                <div class="c1d">
+                    <img class="c1" src="bg-card-back.png" alt="card img" />
+                    <p class="c1p">
+                        000
+                    </p>
+                </div>
+                <div class="c2d">
+                    <img class="c2" src="bg-card-front.png" alt="card img2" />
+                    <div class="circle1">
+
+                    </div>
+                    <div class="circle2">
+
+                    </div>
+                    <p class="c2p">
+                        0000 0000 0000 0000
+                    </p>
+                    <h2 class="n">Jane Appleseed</h2>
+                    <h3>00/00</h3>
+                </div>
+            </header>
+            <div class="send">
+                <form action="" method="get" accept-charset="utf-8">
+                    <label class="l1" for="cardname">Cardholder Name</label>
+                    <input placeholder="e.g. Jane Appleseed" type="text" name="cardname" id="cardname" value="" />
+                    <label class="l2" for="cardn">card Number</label>
+                    <input placeholder=" e.g. 1234 5678 9123 0000" type="number" name="cardn" id="cardn" value="" />
+                    <p class="o">
+                        wrong format, Numbers only
+                    </p>
+                    <label class="l3" for="month year">Exp. Date (MM/YY)</label>
+                    <label class="l4" for="cvc">CVC</label>
+                    <br />
+                    <input maxlength="2" placeholder="MM" type="number" name="month" id="month" value="" />
+
+                    <input placeholder="YY" type="number" name="year" id="year" value="" />
+
+                    <input placeholder="e.g. 123" type="number" name="cvc" id="cvc" value="" />
+                    <p class="o">
+                        cant be blank
+                    </p>
+                    <p class="o">
+                        cant be blank
+                    </p>
+                    <p class="o">
+                        cant be blank
+                    </p>
+
+                    <button type="submit">confirm</button>
+                </form>
+            </div>
+            <div class="thanks">
+                <img class="th" src="icon-complete.svg" alt="thanks" />
+                <h2 class="t">Thank you!</h2>
+                <p>We've added your card details</p>
+                <button type="">Continue</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Completed state start -->
+
+    
+    
+    
+
+    <div class="attribution1">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script src="main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

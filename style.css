@@ -1,0 +1,238 @@
+.c1 {
+    width: 307px;
+    transform: translatey(40px);
+}
+
+.c1p {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    transform: translate(-60px, 100px);
+}
+
+
+.c1d {
+    transform: translatex(64px);
+    width: 310px;
+}
+
+header {
+    height: 280px;
+    background-image: url('bg-main-mobile.png');
+}
+
+body {
+    margin: 0;
+}
+
+.c2d {
+    position: absolute;
+    transform: translate(20px, -20px);
+    width: 310px;
+    z-index: 5;
+}
+
+.circle1 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 10;
+    transform: translate(30px, -150px);
+}
+
+.circle2 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: white solid 2px;
+    border-radius: 50%;
+    z-index: 10;
+    transform: translate(80px, -143px);
+}
+.c2 {
+    width: 307px;
+    z-index: 5;
+    position: relative;
+    transform:;
+    z-index: 1;
+}
+
+.c2d > p {
+    width: 90%;
+    position: absolute;
+    z-index: 10;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 4px;
+    transform: translate(20px, -80px);
+}
+
+.c2d > h2 {
+    width: fit-content;
+    position: relative;
+    z-index: 10;
+    color: white;
+    font-size: 11px;
+    transform: translate(20px, -35px);
+
+}
+
+.c2d > h3 {
+    width: fit-content;
+    position: relative;
+    z-index: 10;
+    color: white;
+    font-size: 11px;
+    transform: translate(260px, -60px);
+
+}
+
+.send {
+    width: 100%;
+    height: 500px;
+    padding-top: 60px;
+}
+
+#cardname {
+    display: block;
+    transform: translatex(30px);
+    width: 80%;
+    height: 40px;
+}
+
+#cardn {
+    display: block;
+    transform: translatex(30px);
+    width: 80%;
+    height: 40px;
+}
+
+/** {
+    outline: red solid 3px;
+}*/
+
+.l1,
+.l2 {
+    display: inline-block;
+    transform: translatex(26px);
+}
+
+#month,
+#year {
+    width: 50px;
+    margin-left: 10px;
+    padding: 7px;
+    height: 30px;
+}
+#cvc {
+    margin-left: 7px;
+    width: 180px;
+    height: 30px;
+    padding: 7px;
+}
+#month {
+    margin-left: 30px;
+}
+
+form button {
+    width: 80%;
+    height: 50px;
+    transform: translatex(30px);
+    border: transparent;
+    margin-top: 20px;
+    color: white;
+    border-radius: 5px;
+    background-color: hsl(278, 68%, 11%);
+}
+
+input {
+    opacity: 0.7;
+}
+
+input:focus {
+    outline: transparent;
+}
+
+.o {
+    color: red;
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.thanks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    display: none;
+    margin-top: 120px;
+}
+
+.thanks button {
+    width: 80%;
+    height: 50px;
+    border: transparent;
+    margin-top: 20px;
+    color: white;
+    border-radius: 5px;
+    background-color: hsl(278, 68%, 11%);
+}
+
+@media (min-width : 400px) {
+    body {
+        width: 1440px;
+    }
+
+    header {
+        background-image: url('bg-main-desktop.png');
+        height: 100%;
+        height: 100vh;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+
+    .c1d {
+        transform: translate(200px, 200px);
+    }
+
+    .c2d {
+        transform: translate(100px, -100px);
+
+    }
+    #cardname {
+        display: block;
+        transform: translatex(200px);
+        width: 50%;
+        height: 50px;
+    }
+
+    #cardn {
+        display: block;
+        transform: translatex(200px);
+        width: 50%;
+        height: 50px;
+    }
+     button {
+        width: 40% !important;
+        display: block;
+        transform: translatex(230px) !important;
+    }
+    #month {
+        margin-left: 250px;
+    }
+    .l1,
+    .l2 {
+        transform: translatex(190px);
+    }
+
+    .l3 {
+        margin-left: 190px;
+    }
+}
